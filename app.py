@@ -5,7 +5,7 @@ from datetime import datetime
 from streamlit_gsheets import GSheetsConnection
 
 # This tells Streamlit to look into the "Secrets" you just saved
-GSHEETS_URL = st.secrets["GSHEETS_URL"]
+GSHEETS_URL = st.secrets["gsheets_url"]
 
 # --- 1. CONFIG & STYLING (Material 3 / Google Stitch Vibe) ---
 st.set_page_config(page_title="StitchStretch", page_icon="🧘", layout="centered")
